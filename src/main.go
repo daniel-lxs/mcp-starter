@@ -38,7 +38,6 @@ func main() {
 		break // Only need the first/only entry
 	}
 
-	fmt.Printf("Starting server: %s\n", serverName)
 	executeServer(server)
 }
 
