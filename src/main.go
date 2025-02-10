@@ -24,16 +24,14 @@ func main() {
 
 	configPath := os.Args[1]
 	config := loadConfig(configPath)
-	
+
 	// Get the single server entry
 	if len(config.McpServers) != 1 {
 		panic("Config must contain exactly one server definition")
 	}
-	
+
 	var server McpServer
-	var serverName string
-	for name, s := range config.McpServers {
-		serverName = name
+	for _, s := range config.McpServers {
 		server = s
 		break // Only need the first/only entry
 	}
