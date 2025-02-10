@@ -45,10 +45,15 @@ Download the latest release for your platform from the [Releases page](https://g
    }
    ```
 
-2. Run the application:
+2. Prepare the command to add it to Cursor:
    ```bash
-   ./mcp-starter config.json
+   path/to/mcp-starter path/to/config.json
    ```
+
+3. Paste the command into the "Add MCP Server dialog:
+![image](https://github.com/user-attachments/assets/d6d4344c-c356-41f5-84f5-427c1005a518)
+
+Note: Use the full path to the executable and the config file.
 
 ## Configuration
 
