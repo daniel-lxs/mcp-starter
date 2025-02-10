@@ -45,9 +45,9 @@ Download the latest release for your platform from the [Releases page](https://g
    }
    ```
 
-2. Run the application:
+2. Add the MCP server to Cursor IDE:
    ```bash
-   ./mcp-starter config.json
+   path/to/mcp-starter path/to/config.json
    ```
 
 ## Configuration
