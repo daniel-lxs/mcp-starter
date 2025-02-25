@@ -28,6 +28,12 @@ Download the latest release for your platform from the [Releases page](https://g
    go build -o mcp-starter
    ```
 
+   **Windows Users:** To prevent terminal windows from appearing when the application is launched, use:
+
+   ```powershell
+   go build -ldflags "-H=windowsgui" -o mcp-starter.exe
+   ```
+
 ## Usage
 
 1. Create a JSON configuration file (e.g., `config.json`):
@@ -85,6 +91,8 @@ To build the application:
 ```bash
 go build -o mcp-starter
 ```
+
+See [Installation](#from-source) section for platform-specific build instructions.
 
 ### Testing
 
